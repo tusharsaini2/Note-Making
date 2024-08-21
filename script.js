@@ -21,7 +21,7 @@ button.addEventListener("click", () => {
   let img = document.createElement("IMG");
   paragraph.setAttribute("contenteditable","true")
   paragraph.className= "input-text";
-  img.src ="Images/Delete.png"
+  img.src ="Delete.png"
   img.classList.add("img")
 
   noteContainer.appendChild(paragraph).appendChild(img);
